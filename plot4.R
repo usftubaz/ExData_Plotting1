@@ -14,7 +14,7 @@ plot4 <- function() {
     par(mfrow=(c(2,2)), mar=c(4.1,4.1,1.1,1.1))
         
     ##Plot 1
-    with(data,plot(DateTime,Global_active_power,xlab="",ylab="Global Active Power",type="n"))
+    with(data,plot(DateTime,Global_active_power,xlab="",ylab="Global Active Power",type="n", width=11,height=8))
     with(data,lines(DateTime,Global_active_power))
     
     ##Plot 2
